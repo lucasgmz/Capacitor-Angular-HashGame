@@ -1,0 +1,16 @@
+<div class="container d-flex flex-column justify-content-center text-center mt-4 p-4">
+    <h1>1 vs 1</h1>
+
+    <div class="row">
+        <div class="col-4 hash-row d-flex justify-content-center align-items-center" 
+            *ngFor="let hashRow of hashRowList" 
+            (click)="addResult(hashRow)"
+            [ngClass]="{'winner': hashRow.winner}">
+            <h3>{{hashRow.value}}</h3>
+        </div>
+    </div>
+
+    <div class="menu-options mt-4">
+        <button [routerLink]="['']" type="button" class="btn btn-dark">Voltar</button>
+    </div>
+</div>

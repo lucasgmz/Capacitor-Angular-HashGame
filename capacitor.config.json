@@ -1,0 +1,13 @@
+{
+  "appId": "com.hashgame.lucasgmz",
+  "appName": "hash-game",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist/HashGame",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

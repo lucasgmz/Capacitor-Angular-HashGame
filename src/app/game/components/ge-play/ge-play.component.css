@@ -1,0 +1,11 @@
+.hash-row {
+    background-color: #16213e;
+    border: 1px solid #e94560;
+    height: 120px;
+    transition: all 0.2s;
+}
+
+.winner {
+    background-color: #e94560;
+    transform: scale(1.1);
+}
